@@ -22,6 +22,11 @@
     background-color: black !important;
 }
 
+#yam-pics-outer{
+    background-color: black;
+    margin-top: 50px;
+}
+
 #animated-thumbnials{
     background-color: black;
     margin-top: 50px;
@@ -37,4 +42,16 @@
 
 .lg-outer{
     transition: background-color 600ms ease 0s;
+}
+
+#yam-pics-inner{
+    top: 50%; /* IMPORTANT */
+    left: 50%; /* IMPORTANT */
+    display: block;
+    position: absolute;
+    width: 1380px;
+    height: 430px;
+
+    margin-top: -215px; /* HALF OF THE HEIGHT */
+    margin-left: -690px; /* HALF OF THE WIDTH */
 }
