@@ -10,7 +10,6 @@
     -webkit-background-size: cover;
     background-color: black;
     background-size: cover;
-
 }
 
 .d-block{
@@ -24,10 +23,11 @@
 
 #YamPics{
     background-color: black;
-    margin-top:50px;
+    margin-top:40px;
     width: 100%;
-}
+    height: max-content;
 
+}
 
 .navbar-light .navbar-brand{
     color:#fff;
