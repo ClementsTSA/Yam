@@ -59,4 +59,42 @@
 body{
     background-color: black;
 }
+
+
+html, body {
+    height: 100%;
+}
+
+.panel {
+    position: relative;
+    min-height: 500px;
+    z-index: 5;
+    }
+    .panel-fixed {
+        z-index: 1;
+        }
+    .panel-inner {
+        padding: 1em;
+        width: 100%;
+        }
+        .panel-fixed .panel-inner {
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 2;
+            }
+
+
+
+/* Base */
+*, *:before, *:after { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+
+body {
+    font: 100%/1.5 Arial, sans-serif;
+    }
+
+h1, h2, h3 {
+    margin-bottom: 1.5em;
+    font-weight: bold;
+}
     
