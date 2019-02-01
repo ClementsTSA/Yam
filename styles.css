@@ -22,15 +22,12 @@
     background-color: black !important;
 }
 
-#yam-pics-outer{
+#YamPics{
     background-color: black;
-    margin-top: 50px;
+    margin-top:50px;
+    width: 100%;
 }
 
-#animated-thumbnials{
-    background-color: black;
-    margin-top: 50px;
-}
 
 .navbar-light .navbar-brand{
     color:#fff;
@@ -44,14 +41,22 @@
     transition: background-color 600ms ease 0s;
 }
 
-#yam-pics-inner{
+#animated-thumbnials {
     top: 50%; /* IMPORTANT */
     left: 50%; /* IMPORTANT */
     display: block;
     position: absolute;
-    width: 1380px;
+    width: 1400px;
     height: 430px;
-
     margin-top: -215px; /* HALF OF THE HEIGHT */
-    margin-left: -690px; /* HALF OF THE WIDTH */
+    margin-left: -700px; /* HALF OF THE WIDTH */
 }
+
+.navbar-toggler{
+    background-color: white
+}
+
+body{
+    background-color: black;
+}
+    
