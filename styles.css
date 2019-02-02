@@ -23,7 +23,6 @@
 
 #YamPics{
     background-color: black;
-    margin-top:40px;
     width: 100%;
     height: max-content;
 
@@ -89,6 +88,6 @@ html,body {
 }
 
 #YamTracks{
-   margin-top:50%;
+   margin-top:48%;
 }
 

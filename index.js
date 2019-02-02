@@ -60,3 +60,8 @@ function responsiveScreen() {
         "height": height
     })
 }
+
+function scrollToTrack() {
+    var myDiv = document.getElementById('Lies');
+    myDiv.scrollTop = 0;
+}
