@@ -59,6 +59,7 @@ html,body {
     width: 25%;
     display: table-cell;
     margin-top: 20%;
+    text-align: center;
 }
 
 #midpic{
@@ -70,6 +71,7 @@ html,body {
     width: 25%;
     display: table-cell;
     margin-top: 20%;
+    text-align: center;
 }
 
 #YamOpCover{
