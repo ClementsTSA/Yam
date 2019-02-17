@@ -32,6 +32,15 @@ html,body {
 }
 
 
+#YamCover{
+    background-color: black;
+    position:relative;
+    width: 100%;
+    color:red;
+    top:0;
+}
+
+
 #cover {
     display: table;
     width: 100%;
@@ -43,14 +52,6 @@ html,body {
     position:absolute;
     height:100%;
     width:100%;
-}
-
-#YamCover{
-    background-color: black;
-    position:relative;
-    width: 100%;
-    color:red;
-    top:0;
 }
 
 #leftpic, #midpic,#rightpic{
@@ -107,7 +108,7 @@ html,body {
     margin-bottom: 5%;
 }
 
-#YamTracks{
+#YamInfo{
    background-color: black;
    position:relative;
    height:100%;
@@ -116,16 +117,19 @@ html,body {
    z-index:100;
 }
 
+#merch-formating{
+    margin-left: 10%;
+    margin-right: 10%;
+}
 #merch{
     background-color: black;
-    width: 100%;
-    position:relative;
-    width:100%;
     display: table;
+    width: 100%;
 }
 
 .card{
-    background-color: black
+    background-color: black;
+    display: table-cell !important;
 }
 .card-text{
     font-family: 'Fjalla One', sans-serif;
