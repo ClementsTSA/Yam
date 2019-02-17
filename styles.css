@@ -88,6 +88,11 @@ html,body {
     max-width:100%;
 }
 
+#YamTourPic{
+    max-height:100%; 
+    max-width:100%;
+}
+
 .merch-pics{
     max-height:100%; 
     max-width:100%;
@@ -164,11 +169,12 @@ html,body {
 }
 
 #bio-text-style{
+    position: absolute;
+    margin-top: 2%;
     font-family: 'Fjalla One', sans-serif;
     font-size: 1.5vw;
     color:white !important;
     text-align:left; 
-    vertical-align: middle;
     margin-left: 2%;
     margin-right: 2%;
 }

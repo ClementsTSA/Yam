@@ -20,6 +20,20 @@ $("a").click(function () {
     $("html, body").animate({ scrollTop: $("#" + pageId).offset().top }, 1000);
 });
 
+
+setInterval(() =>{
+    console.log("Wow")
+    var source = document.getElementById("YamTourPic").src
+    if(source.includes("yam-tour.png") ){
+        $("#YamTourPic").attr('src', 'images/yam-lookout.png');
+    }
+    else{
+        $("#YamTourPic").attr('src', 'images/yam-tour.png');
+    }
+
+},3000)
+
+
 function responsiveness(){
     if(window.innerWidth <635){
         $(".ml4").css({
