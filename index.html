@@ -7,8 +7,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
   <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
-    crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+    integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css?family=Charm" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 
@@ -33,13 +33,14 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item active">
-            <a class="nav-link navbar-brand yam-text-style" href="#">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-link navbar-brand yam-text-style" href="#" data-page="wrapper">Home <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link navbar-brand yam-text-style" href="#YamTracks" onclick="scrollToTrack()">Music</a>
+            <a class="nav-link navbar-brand yam-text-style" href="#" data-page="tracks">Music</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link navbar-brand yam-text-style" onclick="scrollToMerch()" href="#merch">Merch</a>
+            <a class="nav-link navbar-brand yam-text-style" href="#" data-page="merch"
+              href="#merch">Merch</a>
           </li>
           <li class="nav-item">
             <a class="nav-link navbar-brand yam-text-style" href="#">Tour</a>
@@ -89,50 +90,55 @@
       </div>
       -->
 
-      <div id = "tracks">
-          <iframe id="Lies" width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/506802519&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
-          <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/509730096&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
-          <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/516475599&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+      <div id="tracks">
+        <iframe id="Lies" width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay"
+          src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/506802519&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+        <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay"
+          src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/509730096&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+        <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay"
+          src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/516475599&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
       </div>
-    
+
       <div id="merch">
         <div class="card merch-pics  mb-3" style="width: 33%; display: table-cell">
           <img src="images/YamBussinsShirt.png" class="card-img-top" alt="...">
-          <div class="card-body" style = "background-color: black">
+          <div class="card-body" style="background-color: black">
             <p class="card-text">Bussin Lil Yam ~ $22.00</p>
           </div>
         </div>
 
         <div class="card merch-pics mb-3" style="width: 33%; display: table-cell">
           <img src="images/roseshirt.png" class="card-img-top" alt="...">
-          <div class="card-body" style = "background-color: black">
-            <p class="card-text" style = "background-color: black">No Rose ~ Official Merch ~ $19.99</p>
+          <div class="card-body" style="background-color: black">
+            <p class="card-text" style="background-color: black">No Rose ~ Official Merch ~ $19.99</p>
           </div>
         </div>
 
         <div class="card merch-pics mb-3" style="width: 33%; display: table-cell">
           <img src="images/swervingshirt.png" class="card-img-top" alt="...">
-          <div class="card-body" style = "background-color: black">
+          <div class="card-body" style="background-color: black">
             <p class="card-text">Swervin with the EDD Gang ~ $25.00</p>
           </div>
         </div>
       </div>
     </div>
 
-
-
-
-
   </div>
 
 
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
     crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+    integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
     crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+    integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
     crossorigin="anonymous"></script>
   <script src="index.js"></script>
 

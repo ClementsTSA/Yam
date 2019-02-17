@@ -6,15 +6,8 @@ $(function () {
 })
 
 
-
-
-
-function scrollToTrack() {
-    var myDiv = document.getElementById('Lies');
-    myDiv.scrollTop = 0;
-}
-
-function scrollToMerch() {
-    var myDiv = document.getElementById('merch');
-    myDiv.scrollTop = 0;
-}
+$("a").click(function () {
+    console.log("Scroll")
+    var pageId = $(this).attr("data-page");
+    $("html, body").animate({ scrollTop: $("#" + pageId).offset().top }, 1000);
+});
