@@ -67,6 +67,12 @@ html,body {
     display: table-cell;
 }
 
+#midpic img{
+    margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
 #rightpic{
     width: 25%;
     display: table-cell;
@@ -78,6 +84,13 @@ html,body {
     max-height:100%; 
     max-width:100%;
 }
+
+.merch-pics{
+    max-height:100%; 
+    max-width:100%;
+}
+
+
 
 #YamTracks{
    background-color: black;
@@ -91,6 +104,9 @@ html,body {
 #merch{
     background-color: black;
     width: 100%;
+    position:relative;
+    width:100%;
+    display: table;
 }
 
 /* Anime css */

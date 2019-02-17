@@ -39,7 +39,7 @@
             <a class="nav-link navbar-brand yam-text-style" href="#YamTracks" onclick="scrollToTrack()">Music</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link navbar-brand yam-text-style" href="#">Merch</a>
+            <a class="nav-link navbar-brand yam-text-style" onclick="scrollToMerch()" href="#merch">Merch</a>
           </li>
           <li class="nav-item">
             <a class="nav-link navbar-brand yam-text-style" href="#">Tour</a>
@@ -65,7 +65,7 @@
           </h1>
         </div>
         <div id="midpic">
-          <img id ="YamOpCover" src="images/yamopcover.png" alt="Italian Trulli">
+          <img id="YamOpCover" src="images/yamopcover.png" alt="Italian Trulli">
         </div>
         <div id="rightpic">
           <h1 class="ml4">
@@ -80,104 +80,120 @@
 
     </div>
 
+    <!-- Yam Merch -->
+
     <div id="YamTracks" class="panels">
       <iframe id="Lies" width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/506802519&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
       <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/509730096&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
       <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/516475599&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
-      <div>
 
 
-        <!-- Yam Merch      
-        <div id="merch">
-          <div class="card" style="width: 18rem;">
-            <img src="images/YamBussinsShirt.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                card's
-                content.</p>
-            </div>
+      <div id="merch">
+        <div class="card merch-pics bg-secondary mb-3" style="width: 33%; display: table-cell">
+          <img src="images/YamBussinsShirt.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+              card's content.</p>
           </div>
         </div>
-        -->
+
+        <div class="card merch-pics bg-secondary mb-3" style="width: 33%; display: table-cell">
+          <img src="images/roseshirt.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+              card's content.</p>
+          </div>
+        </div>
+
+        <div class="card merch-pics bg-secondary mb-3" style="width: 33%; display: table-cell">
+          <img src="images/swervingshirt.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+              card's content.</p>
+          </div>
+        </div>
       </div>
     </div>
 
 
 
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-      crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
-      crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
-      crossorigin="anonymous"></script>
-    <script src="index.js"></script>
 
-    <!-- lightGallery js JavaScript -->
+  </div>
 
-    <script src="node_modules/lightgallery.js/dist/js/lightgallery.min.js"></script>
 
-    <!-- Anime.js JavaScript -->
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+    crossorigin="anonymous"></script>
+  <script src="index.js"></script>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
-    <script>
-      /* Anime JavaScript */
+  <!-- lightGallery js JavaScript -->
 
-      var ml4 = {};
-      ml4.opacityIn = [0, 1];
-      ml4.scaleIn = [0.2, 1];
-      ml4.scaleOut = 3;
-      ml4.durationIn = 800;
-      ml4.durationOut = 600;
-      ml4.delay = 500;
+  <script src="node_modules/lightgallery.js/dist/js/lightgallery.min.js"></script>
 
-      anime.timeline({ loop: true })
-        .add({
-          targets: '.ml4 .letters-1',
-          opacity: ml4.opacityIn,
-          scale: ml4.scaleIn,
-          duration: ml4.durationIn
-        }).add({
-          targets: '.ml4 .letters-1',
-          opacity: 0,
-          scale: ml4.scaleOut,
-          duration: ml4.durationOut,
-          easing: "easeInExpo",
-          delay: ml4.delay
-        }).add({
-          targets: '.ml4 .letters-2',
-          opacity: ml4.opacityIn,
-          scale: ml4.scaleIn,
-          duration: ml4.durationIn
-        }).add({
-          targets: '.ml4 .letters-2',
-          opacity: 0,
-          scale: ml4.scaleOut,
-          duration: ml4.durationOut,
-          easing: "easeInExpo",
-          delay: ml4.delay
-        }).add({
-          targets: '.ml4 .letters-3',
-          opacity: ml4.opacityIn,
-          scale: ml4.scaleIn,
-          duration: ml4.durationIn
-        }).add({
-          targets: '.ml4 .letters-3',
-          opacity: 0,
-          scale: ml4.scaleOut,
-          duration: ml4.durationOut,
-          easing: "easeInExpo",
-          delay: ml4.delay
-        }).add({
-          targets: '.ml4',
-          opacity: 0,
-          duration: 500,
-          delay: 500
-        });
-    </script>
+  <!-- Anime.js JavaScript -->
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+  <script>
+    /* Anime JavaScript */
+
+    var ml4 = {};
+    ml4.opacityIn = [0, 1];
+    ml4.scaleIn = [0.2, 1];
+    ml4.scaleOut = 3;
+    ml4.durationIn = 800;
+    ml4.durationOut = 600;
+    ml4.delay = 500;
+
+    anime.timeline({ loop: true })
+      .add({
+        targets: '.ml4 .letters-1',
+        opacity: ml4.opacityIn,
+        scale: ml4.scaleIn,
+        duration: ml4.durationIn
+      }).add({
+        targets: '.ml4 .letters-1',
+        opacity: 0,
+        scale: ml4.scaleOut,
+        duration: ml4.durationOut,
+        easing: "easeInExpo",
+        delay: ml4.delay
+      }).add({
+        targets: '.ml4 .letters-2',
+        opacity: ml4.opacityIn,
+        scale: ml4.scaleIn,
+        duration: ml4.durationIn
+      }).add({
+        targets: '.ml4 .letters-2',
+        opacity: 0,
+        scale: ml4.scaleOut,
+        duration: ml4.durationOut,
+        easing: "easeInExpo",
+        delay: ml4.delay
+      }).add({
+        targets: '.ml4 .letters-3',
+        opacity: ml4.opacityIn,
+        scale: ml4.scaleIn,
+        duration: ml4.durationIn
+      }).add({
+        targets: '.ml4 .letters-3',
+        opacity: 0,
+        scale: ml4.scaleOut,
+        duration: ml4.durationOut,
+        easing: "easeInExpo",
+        delay: ml4.delay
+      }).add({
+        targets: '.ml4',
+        opacity: 0,
+        duration: 500,
+        delay: 500
+      });
+  </script>
 
 
 </body>
