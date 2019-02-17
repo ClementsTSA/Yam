@@ -138,6 +138,41 @@ html,body {
     text-align: center;
 }
 
+#tour-formatting{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+#tour{
+    background-color: black;
+    display: table;
+    width: 100%;
+}
+
+#tourpic{
+    display: table-cell !important;
+    width: 30%;
+}
+
+#tourpic img{
+    max-height:100%; 
+    max-width:100%;
+}
+
+#tourbio{
+    display: table-cell !important;
+    width: 70%;
+}
+
+#bio-text-style{
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 1.5vw;
+    color:white !important;
+    text-align:left; 
+    vertical-align: middle;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
 /* Animated Text CSS */
 
 .ml4 {
