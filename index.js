@@ -2,46 +2,14 @@
 /* When website loads */
 
 $(function () {
-    if(window.innerWidth <635){
-        $(".ml4").css({
-            "position": "relative", "font-weight": "900","font-size": "1em"
-        })
-    }
-
-    else if(window.innerWidth <1052){
-        $(".ml4").css({
-            "position": "relative", "font-weight": "900","font-size": "2em"
-        })
-    }
-
-    else{
-        $(".ml4").css({
-            "position": "relative", "font-weight": "900","font-size": "3em"
-        })
-    }
+    responsiveness()
 })
 
 /* When website resizes */
 
 
 $(window).resize(function () {
-    if(window.innerWidth <635){
-        $(".ml4").css({
-            "position": "relative", "font-weight": "900","font-size": "1em"
-        })
-    }
-
-    else if(window.innerWidth <1052){
-        $(".ml4").css({
-            "position": "relative", "font-weight": "900","font-size": "2em"
-        })
-    }
-
-    else{
-        $(".ml4").css({
-            "position": "relative", "font-weight": "900","font-size": "3em"
-        })
-    }
+    responsiveness()
 })
 
 /* Animation jQuery plugin */
@@ -51,3 +19,38 @@ $("a").click(function () {
     var pageId = $(this).attr("data-page");
     $("html, body").animate({ scrollTop: $("#" + pageId).offset().top }, 1000);
 });
+
+function responsiveness(){
+    if(window.innerWidth <635){
+        $(".ml4").css({
+            "position": "relative", "font-weight": "900","font-size": "1em"
+        })
+
+        $("#merch-formating").css({
+            "margin-right":"0%", "margin-left": "0%"
+
+        })
+    }
+
+    else if(window.innerWidth <1052){
+        $(".ml4").css({
+            "position": "relative", "font-weight": "900","font-size": "2em"
+        })
+
+        $("#merch-formating").css({
+            "margin-right":"10%", "margin-left": "10%"
+
+        })
+    }
+
+    else{
+        $(".ml4").css({
+            "position": "relative", "font-weight": "900","font-size": "3em"
+        })
+
+        $("#merch-formating").css({
+            "margin-right":"10%", "margin-left": "10%"
+
+        })
+    }
+}
