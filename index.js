@@ -22,7 +22,6 @@ $("a").click(function () {
 
 
 setInterval(() =>{
-    console.log("Wow")
     var source = document.getElementById("YamTourPic").src
     if(source.includes("yam-tour.png") ){
         $("#YamTourPic").attr('src', 'images/yam-lookout.png');
