@@ -122,11 +122,11 @@ html,body {
    z-index:100;
 }
 
-.merch-formating{
+#merch-formating{
     margin-left: 10%;
     margin-right: 10%;
 }
-.merch{
+#merch{
     background-color: black;
     display: table;
     width: 100%;
