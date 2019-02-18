@@ -122,11 +122,11 @@ html,body {
    z-index:100;
 }
 
-#merch-formating{
+.merch-formating{
     margin-left: 10%;
     margin-right: 10%;
 }
-#merch{
+.merch{
     background-color: black;
     display: table;
     width: 100%;
@@ -136,6 +136,22 @@ html,body {
     background-color: black;
     display: table-cell !important;
 }
+
+.card img{
+    transition: 1s ease;
+}
+.card img:hover{
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    transition: 1s ease;
+    z-index: 3;
+    position: absolute; /*newly added*/
+    right: 5px; /*newly added*/
+    top: 5px;/*newly added*/
+}
+
+
 .card-text{
     font-family: 'Fjalla One', sans-serif;
     font-size: 25px;
@@ -195,6 +211,41 @@ html,body {
     right: 0;
     opacity: 0; 
   }
+
+
+/* Cover Transitions */
+.elementToFadeInAndOutLeft {
+    opacity: 1;
+    animation: fade-left 2s linear;
+}
+
+@keyframes fade-left {
+  0% { 
+    opacity: 0; 
+    transform: translateX(-5px);
+    }
+  100% { 
+      opacity: 1; 
+      transform: translateX(0px);
+    }
+}
+
+.elementToFadeInAndOutRight{
+    opacity: 1;
+    animation: fade-right 2s linear;
+}
+
+@keyframes fade-right {
+  0% { 
+    opacity: 0; 
+    transform: translateX(5px);
+    }
+  100% { 
+      opacity: 1; 
+      transform: translateX(0px);
+    }
+}
+
 
 
 
