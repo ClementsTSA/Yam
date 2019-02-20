@@ -20,7 +20,7 @@ $("a").click(function () {
     $("html, body").animate({ scrollTop: $("#" + pageId).offset().top }, 1000);
 });
 
-
+/*
 setInterval(() =>{
     var source = document.getElementById("YamTourPic").src
     if(source.includes("yam-tour.png") ){
@@ -31,6 +31,7 @@ setInterval(() =>{
     }
 
 },3000)
+*/
 
 
 function responsiveness(){
