@@ -132,15 +132,15 @@ html,body {
     width: 100%;
 }
 
-.card{
+.merch-pics{
     background-color: black;
     display: table-cell !important;
 }
 
-.card img{
+.merch-pics img{
     transition: 1s ease;
 }
-.card img:hover{
+.merch-pics img:hover{
     -webkit-transform: scale(1.2);
     -ms-transform: scale(1.2);
     transform: scale(1.2);
