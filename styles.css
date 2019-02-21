@@ -160,8 +160,8 @@ html,body {
 }
 
 #tour-formatting{
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 #tour{
     background-color: black;
@@ -181,7 +181,11 @@ html,body {
 
 #tourbio{
     display: table-cell !important;
-    width: 70%;
+    width: 40%;
+}
+
+.review-text{
+    text-align: left
 }
 
 #bio-text-style{
@@ -191,7 +195,7 @@ html,body {
     font-size: 1.5vw;
     color:white !important;
     text-align:left; 
-    margin-left: 2%;
+    margin-left: 8%;
     margin-right: 2%;
 }
 
@@ -244,6 +248,23 @@ html,body {
       opacity: 1; 
       transform: translateX(0px);
     }
+}
+
+
+#review-formatting{
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+}
+.bg-dark{
+    background-color: black !important;
+}
+
+
+.blockquote-footer{
+    float: left;
+    font-size: 100% !important;
 }
 
 
